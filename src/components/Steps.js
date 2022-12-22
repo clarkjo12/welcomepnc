@@ -30,12 +30,13 @@ export default class Steps extends React.PureComponent {
               <p>
                 {" "}
                 Download app{" "}
-                {/* <a
+                <a
                   target="_blank"
-                  href="https://drive.google.com/file/d/1ndKKyOBB2kaxrLRpc6WLu8ca6scfd0Cj/view?usp=sharing"
+                  rel="noreferrer"
+                  href="https://drive.google.com/file/d/1zdL1lBqW0q_L0mOUDFvi-0wBBKxkylzq/view?usp=share_link"
                 >
                   Here
-                </a>{" "} */}
+                </a>{" "}
                 - Once completed, email to WelcomeHomePNC@gmail.com{" "}
               </p>
             </div>
