@@ -24,9 +24,9 @@ import firebase from "firebase/app";
 /////
 //import  firebase from "firebase/app"
 //import firebase from "firebase/compat/app";
-import "firebase/compat/storage";
-import "firebase/compat/firestore";
-import "firebase/compat/auth";
+import "firebase/storage";
+import "firebase/firestore";
+import "firebase/auth";
 
 
 // Import the functions you need from the SDKs you need
