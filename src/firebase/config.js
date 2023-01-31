@@ -1,6 +1,9 @@
-// import firebase from "firebase/compat/app";
-// import "firebase/compat/storage";
-// import "firebase/compat/firestore";
+import firebase from "firebase/compat/app";
+import "firebase/compat/storage";
+import "firebase/compat/firestore";
+import "firebase/firestore";
+import "firebase/auth";
+
 
 // const firebaseConfig = {
 //   apiKey: "AIzaSyBopSCDwvMnRka6UmnHl-cBggSVs3T-auw",
@@ -20,13 +23,10 @@
 // const timestamp = firebase.firestore.FieldValue.serverTimestamp;
 
 // export { projectStorage, projectFirestore, timestamp, app };
-import * as firebase from "firebase/compat/app";
+// import "firebase/compat/app";
 /////
 //import  firebase from "firebase/app"
 //import firebase from "firebase/compat/app";
-import "firebase/compat/storage";
-import "firebase/firestore";
-import "firebase/auth";
 
 
 
