@@ -1,4 +1,4 @@
-import firebase from "firebase/compat/app";
+import * as firebase from "firebase/compat/app";
 import "firebase/compat/storage";
 import "firebase/compat/firestore";
 import "firebase/firestore";
