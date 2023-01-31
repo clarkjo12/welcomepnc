@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import { useMatch, Link } from "react-router-dom";
 import { NewPhoto } from "./NewPhoto";
 import { DetailInput } from "./NewDetails";
-import { app } from "../firebase/config";
+import { app } from "../firebaseconfig/config";
 import StackGrid from "react-stack-grid";
 
 const db = app.firestore();

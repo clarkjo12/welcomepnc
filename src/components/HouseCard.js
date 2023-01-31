@@ -3,7 +3,7 @@ import HouseDetails from "../data/houses.json";
 import "react-awesome-slider/dist/styles.css";
 import useFirestore from "../hooks/useFirestore";
 import AwesomeSlider from "react-awesome-slider";
-import { app } from "../firebase/config";
+import { app } from "../firebaseconfig/config";
 
 const db = app.firestore();
 

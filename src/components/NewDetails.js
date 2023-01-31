@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { app } from "../firebase/config";
+import { app } from "../firebaseconfig/config";
 
 export const DetailInput = ({ currentAlbum }) => {
   //   const [name, setName] = React.useState(spell.name);

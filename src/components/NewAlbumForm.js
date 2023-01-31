@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { timestamp, app } from "../firebase/config";
+import { timestamp, app } from "../firebaseconfig/config";
 
 const db = app.firestore();
 
