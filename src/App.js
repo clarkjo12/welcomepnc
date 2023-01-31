@@ -2,7 +2,7 @@ import React from "react";
 import "./App.css";
 import HouseCard from "./components/HouseCard";
 import Steps from "./components/Steps";
-//import AdminPage from "./AdminPage";
+import AdminPage from "./AdminPage";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 function App() {
@@ -10,8 +10,8 @@ function App() {
     <Router>
       <Routes>
       <Route exact path="/" element={<Home/>} />
-        {/* <Route path="/" exact component={Home} /> */}
-        {/* <Route exact path="/admin" element={<AdminPage/>} /> */}
+        { <Route path="/" exact component={Home} /> }
+        { <Route exact path="/admin" element={<AdminPage/>} /> }
       </Routes>
     </Router>
   );
