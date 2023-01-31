@@ -34,13 +34,13 @@
 
 ////////////////////////////////////////////////////
 ///////////////////////////////////////////////////
-import * as firebase from "firebase/app";
-import { initializeApp } from "firebase/app";
-import {} from "firebase/auth";
-import { getFirestore } from "firebase/firestore";
+// import * as firebase from "firebase/app";
+// import { initializeApp } from "firebase/app";
+// import {} from "firebase/auth";
+// import { getFirestore } from "firebase/firestore";
 
-import "firebase/compat/storage";
-import "firebase/compat/firestore";
+// import "firebase/compat/storage";
+// import "firebase/compat/firestore";
 
 // import "firebase/firestore";
 // import "firebase/auth";
@@ -49,6 +49,8 @@ import "firebase/compat/firestore";
 
 // Your web app's Firebase configuration
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+import { initializeApp } from "firebase/app";
+import { getStorage } from "firebase/storage";
 const firebaseConfig = {
   apiKey: "AIzaSyBopSCDwvMnRka6UmnHl-cBggSVs3T-auw",
   authDomain: "welcome-home-f1f37.firebaseapp.com",
@@ -65,9 +67,9 @@ const firebaseConfig = {
 const app = initializeApp(firebaseConfig);
 //const analytics = getAnalytics(app);
 
-const projectStorage = firebase.storage();
-const projectFirestore = getFirestore(app);
-const auth = firebase.auth();
-const timestamp = firebase.firestore.FieldValue.serverTimestamp;
+// const projectStorage = firebase.storage();
+// const projectFirestore = getFirestore(app);
+// const auth = firebase.auth();
+// const timestamp = firebase.firestore.FieldValue.serverTimestamp;
 
 export { projectStorage, projectFirestore, timestamp, app, auth };
