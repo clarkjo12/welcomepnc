@@ -34,10 +34,10 @@
 
 ////////////////////////////////////////////////////
 ///////////////////////////////////////////////////
-import * as firebase from "@firebase/app";
-import { initializeApp } from "@firebase/app";
+import * as firebase from "firebase/app";
+import { initializeApp } from "firebase/app";
 import {} from "firebase/auth";
-import { getFirestore } from "@firebase/firestore";
+import { getFirestore } from "firebase/firestore";
 
 import "firebase/compat/storage";
 import "firebase/compat/firestore";
