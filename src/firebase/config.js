@@ -31,11 +31,13 @@
 //import { getAnalytics } from "firebase/analytics";
 // TODO: Add SDKs for Firebase products that you want to use
 // https://firebase.google.com/docs/web/setup#available-libraries
-import { initializeApp } from "firebase/app";
+import { initializeApp } from "@firebase/app";
 import {} from "firebase/auth";
+import { getFirestore } from "@firebase/firestore";
 import firebase from "firebase/compat/app";
 import "firebase/compat/storage";
 import "firebase/compat/firestore";
+
 // import "firebase/firestore";
 // import "firebase/auth";
 // import { initializeApp } from "firebase/app";
@@ -60,7 +62,7 @@ const app = initializeApp(firebaseConfig);
 //const analytics = getAnalytics(app);
 
 const projectStorage = firebase.storage();
-const projectFirestore = firebase.firestore();
+const projectFirestore = getFirestore(app);
 const auth = firebase.auth();
 const timestamp = firebase.firestore.FieldValue.serverTimestamp;
 
