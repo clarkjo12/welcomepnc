@@ -20,7 +20,7 @@
 // const timestamp = firebase.firestore.FieldValue.serverTimestamp;
 
 // export { projectStorage, projectFirestore, timestamp, app };
-import * as firebase from "@firebase/app";
+import * as firebase from "@firebase/compat/app";
 /////
 //import  firebase from "firebase/app"
 //import firebase from "firebase/compat/app";
