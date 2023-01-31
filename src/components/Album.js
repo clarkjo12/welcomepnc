@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { useRouteMatch, Link } from "react-router-dom";
+import { useMatch, Link } from "react-router-dom";
 import { NewPhoto } from "./NewPhoto";
 import { DetailInput } from "./NewDetails";
 import { app } from "../firebase/config";
@@ -11,7 +11,7 @@ export const Album = () => {
   const [images, setImages] = useState([]);
   const [albumName, setAlbumName] = useState("");
 
-  const match = useRouteMatch("/:album");
+  const match = useMatch("/:album");
   const { album } = match.params;
 
   useEffect(() => {
