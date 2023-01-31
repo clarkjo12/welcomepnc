@@ -24,7 +24,7 @@ import * as firebase from "@firebase/app";
 /////
 //import  firebase from "firebase/app"
 //import firebase from "firebase/compat/app";
-import "firebase/storage";
+import "firebase/compat/storage";
 import "firebase/firestore";
 import "firebase/auth";
 
